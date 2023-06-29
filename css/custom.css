@@ -1,0 +1,19 @@
+:root{
+   --light-blue:#c6e2ff;
+    --pink:#FFD9DF;
+    --red:#C8665B
+}
+
+.body-bg-color{
+    background-color: var(--light-blue);
+}
+.main-bg-color{
+    background-color: var(--pink);
+}
+.header-border-custom{
+border:#D7EAFF solid 2px;
+    box-shadow: 10px 5px 5px #B2CBE5;
+}
+.button-color{
+    background-color: var(--red);
+}
