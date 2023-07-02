@@ -1,39 +1,64 @@
-:root{
-   --light-blue:#c6e2ff;
-    --pink:#FFD9DF;
-    --red:#C8665B;
+:root {
+    --light-blue: #c6e2ff;
+    --pink: #FFD9DF;
+    --red: #C8665B;
     --dark-blue: #7ab0f3;
     --light-grey: #DEDEDEBA;
 }
 
-.body-bg-color{
+.body-bg-color {
     background-color: var(--light-blue);
 }
-.main-bg-color{
+
+.main-bg-color {
     background-color: var(--pink);
 }
-.header-border-custom{
-border:#D7EAFF solid 2px;
+
+.header-border-custom {
+    border: #D7EAFF solid 2px;
     box-shadow: 10px 5px 5px #B2CBE5;
     background-color: var(--dark-blue);
 }
-.button-color{
+
+.button-color {
     background-color: var(--red);
 }
-.pricing-header-color{
+
+.pricing-header-color {
     background-color: var(--light-blue);
 }
-.pricing-bg-color{
+
+.pricing-bg-color {
     background-color: var(--light-grey);
 }
-.pricing-text-color{
+
+.pricing-text-color {
     color: #7f7fe1;
 }
-.img-kindness{
+
+.img-kindness {
     object-fit: cover;
+    position: relative;
 
 }
 
-.opacity-50{
+.second-txt {
+    border: rgba(255, 255, 255, 0.53) solid 2px;
+    background-color: rgba(122, 176, 243, 0.15);
+    font-size: .8em;
+    position: absolute;
+    top: 15em;
+    justify-content: start;
+}
+
+.background-img {
+    object-fit: cover;
+    position: relative;
+    background-image: url("../img/image-kindness.jpeg");
+    background-size: cover;
+
+}
+
+.opacity-50 {
     opacity: 0.5;
 }
