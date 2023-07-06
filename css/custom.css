@@ -45,10 +45,10 @@
 .second-txt {
     border: rgba(255, 255, 255, 0.53) solid 2px;
     background-color: rgba(122, 176, 243, 0.15);
-    font-size: .8em;
-    position: absolute;
-    top: 15em;
-    justify-content: start;
+    font-size: 2em;
+    /*position: absolute;*/
+    /*top: 15em;*/
+    /*justify-content: start;*/
 }
 
 .background-img {
@@ -56,7 +56,7 @@
     position: relative;
     background-image: url("../img/image-kindness.jpeg");
     background-size: cover;
-
+    background-attachment: fixed;
 }
 
 .opacity-50 {
